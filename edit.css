@@ -1,0 +1,90 @@
+.controller.edit {
+  background: url(https://imblakeluna.github.io/willocontroller/base.svg);
+}
+
+.edit.disconnected {
+  background: url(https://imblakeluna.github.io/willocontroller/disconnected.png);
+}
+
+.edit .quadrant {
+  display: none;
+}
+
+.edit .p0 {
+    display: none;
+}
+
+.edit .p1 {
+    display: none;
+}
+
+.edit .p2 {
+    display: none;
+}
+
+.edit .p3 {
+    display: none;
+}
+
+.edit .back, .edit .start {
+    background: url(https://imblakeluna.github.io/willocontroller/start-selectblue.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.edit .back.pressed, .edit .start.pressed {
+    opacity: 1;
+}
+
+.edit .back {
+    float: left;
+}
+
+.edit .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
+.edit .button {
+  position: absolute;
+  background: url(https://imblakeluna.github.io/willocontroller/abxyblue.svg);
+}
+
+.edit .button.pressed {
+    background-position-y: -49px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.edit .a {
+    background-position: 0 0;
+    top: 107px;
+    left: 54px;
+}
+
+.edit .b {
+    background-position: -49px 0;
+    top: 56px;
+    right: 0px;
+}
+
+.edit .x {
+    background-position: -98px 0;
+    top: 56px;
+    left: 3px;
+}
+
+.edit .y {
+    background-position: 48px 0;
+    left: 54px;
+    top: 6px;
+}
+
+.edit .stick {
+      position: absolute;
+      background: url(https://imblakeluna.github.io/willocontroller/stick.svg);
+      background-position: -85px 0;
+      height: 83px;
+      width: 84px;
+}
