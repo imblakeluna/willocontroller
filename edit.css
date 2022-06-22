@@ -48,7 +48,7 @@
 
 .edit .button {
   position: absolute;
-  background: url(https://imblakeluna.github.io/willocontroller/abxyblue.svg);
+  background: url(https://imblakeluna.github.io/willocontroller/abxy.svg);
 }
 
 .edit .button.pressed {
@@ -79,12 +79,4 @@
     background-position: 48px 0;
     left: 54px;
     top: 6px;
-}
-
-.edit .stick {
-      position: absolute;
-      background: url(https://imblakeluna.github.io/willocontroller/stick.svg);
-      background-position: -85px 0;
-      height: 83px;
-      width: 84px;
 }
